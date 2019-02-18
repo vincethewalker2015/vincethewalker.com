@@ -217,7 +217,6 @@ input, select, textarea {
 	
 	.h1-title {
 		color: #B87333;
-
 	}
 
 	h2 {
@@ -1384,6 +1383,11 @@ input, select, textarea {
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
 		}
+		
+		.nav-title {
+		color: #B87333;
+		font-weight: bold;
+		}
 
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
@@ -1655,4 +1659,12 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+		
+		.icons-footer, fa-twitte, a{
+			color: #B87333 !important;
+			list-style-type: none;
+			display: inline; 
+			margin: 0 8px;
+			
 		}
