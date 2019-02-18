@@ -1666,5 +1666,7 @@ input, select, textarea {
 			list-style-type: none;
 			display: inline; 
 			margin: 0 8px;
-			
+		}
+		.icon, fa-diamond {
+			color:  #B87333;
 		}
