@@ -724,6 +724,9 @@ input, select, textarea {
 			.image.main {
 				margin: 1.5rem 0;
 			}
+			.image-small img {
+				width: 15%;
+			}
 
 		}
 
@@ -1511,6 +1514,10 @@ input, select, textarea {
 				#header nav.use-middle:after {
 					display: none;
 				}
+				
+				.nav-title {
+					padding-right: 10px;
+					}
 
 		}
 
