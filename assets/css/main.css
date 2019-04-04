@@ -1693,3 +1693,12 @@ input, select, textarea {
 		.icon, fa-diamond {
 			color:  #B87333;
 		}
+		
+		/* WORK PAGE */
+		
+		.labels {
+			font-weight: bold;
+			background-color: #d9534f;
+			padding: 8px;
+			border-radius: 8px;
+		}
