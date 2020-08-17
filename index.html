@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Laila:400,700" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -21,7 +22,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1 class="h1-title">Vincent Walker</h1>
-								<h3 class="h1-title">I am a Web developer working with Ruby on Rails</h3>
+								<h3 class="h1-title">I develop apps using Ruby on Rails</h3>
 							</div>
 						</div>
 						<nav>
@@ -41,29 +42,63 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">About Me</h2>
-								<span class="image-intro center"><img src="images/vwa.jpg" alt="The VWA" /></span>
-								<p>Hi I'm Vincent Walker, a self-taught Ruby on Rails developer who is enthusiastic about writing clean, efficient, and accessible code in a functional framework. 
+								<span class="image-intro center mug-shot"><img src="images/vwa.png" alt="The VWA" /></span>
+								<p></p>
+								<p>Hi I'm Vincent Walker, a self-taught Ruby on Rails web developer who is enthusiastic about writing clean, efficient, and accessible code in a functional framework. 
 								   Committed to the total development lifecycle, the maintenance of code quality and bug-free applications is of the utmost importance. 
 								   I enjoy learning new things as well as a proven ability to meet and exceed objectives both individual and in collaboration, 
 								   I am an great communicator and enjoy working in teams as well as with colleagues, management and clients alike.
 									 <a href="#work">Check out my awesome work</a>.</p>
 								<p>Experience with: HTML, CSS, BOOTSTRAP, JAVA SCRIPT, RUBY ON RAILS, POSTGRES, SQL, Git Hub, Heroku, TDD (RSpec) and AWS (S3)</p>
-								<p>Created several wholly original RESTful APi's, "Business Den", a SaaS app providing an interface between investors and start-up entrepreneurs using STRIPE Payment system as well as 
-								   Sendgrid email delivery service. "Project App" a simple to use project management app applying a user-authentication function. "The Car Bar" a RESTful API to upload you favourite Car. 
-								   "Blog(with Web Sockets)" takes the blog app development to another level further adding user authentication togeather with using web sockets protocol for "Real Time" messaging.
-								   "My Recipe" a recipe sharing app which also incorporates "real-time" messaging.</p>
+								<p>My most recent projects include <span class="badge-pill badge-info">Elixir</span> developed for a Start up Beauty business
+									<span class="badge-pill badge-info italic">'Lets chat'</span> A Mobile Messaging app using Asynchronous messaging, <span class="badge-pill badge-info">Business Den</span>
+									 a SaaS app providing an interface between investors and start-up entrepreneurs using STRIPE Payment system as well as Sendgrid email delivery service.
+									<span class="badge-pill badge-info">Shopping List</span>A project using Rails and Vue.js
+								</p>
 							</article>
 
 						<!-- Work -->
+							
+
+							<article id="work">
+								<h2 class="major">Elixir</h2>
+								<span class="image main"><img src="images/elixir.png" alt="Elixir" /></span>
+								<p><a href="https://elixir-health-information.herokuapp.com" target="_blank" class="pull-right"> <button type="button" class="btn btn-default btn-sm">Take a peek</button></a><br /></p> <br />
+								<p>Built this for a client, a start up in the Health and Beauty industry.<br /><br />
+										Due to Covid-19 they initially needed a covid-19 form for their clients to fill in pre lockdown. 
+										The project progressed to created a client form section as well as a covid-19 form that that enables the client to complete a risk assessment
+										prior to treatment.<br /><br /> Developed using Rails 6 together with Bootstrap 4.
+									</p>
+							</article>
+							<br /> 
+
+							<article id="work">
+								<h2 class="major">Lets Chat</h2>
+								<span class="image main smaller"><img src="images/letschat.png" alt="Lets_chathat"/></span>
+								<p><a href="https://vwa-letschat.herokuapp.com" target="_blank" class="pull-right"> <button type="button" class="btn btn-default btn-sm" id="actionButton">Take a peek</button></a><br /></p> <br />
+								<p>"LetsChat" uses Rails 5 together with Action Cable and Semantic Ui <br /><br />
+										I built this to try out the Asynchronous messaging introduced in Rails 5 and specifically with the Mobile user in mind.</p>
+							</article>
+							<br />
+							
+							<article id="work">
+								<h2 class="major">Shopping List</h2>
+								<span class="image main"><img src="images/VueShoppingApp.png" alt="Shopping_list" /></span>
+								<p><a href="https://vueshoppinglist.herokuapp.com/" target="_blank" class="pull-right"> <button type="button" class="btn btn-default btn-sm">Take a peek</button></a><br /></p> <br />
+								<p>This was my first project integrating Ruby on Rails (version 6) at the Back end and Vue.js together with Semantic ui on the Front end <br /><br />
+										A simple app to go shopping with</p>
+							</article>
+							<br /> 
+
 							<article id="work">
 								<h2 class="major">Business Den</h2>
 								<span class="image main"><img src="images/busden.jpg" alt="Business Den" /></span>
-								<span class="labels">New</span><span><a href="https://businessden2019.herokuapp.com/" target="_blank" class="pull-right"> <button type="button" class="btn btn-default btn-sm">Take a peek</button></a><br /></span> <br />
+								<span><a href="https://businessden2019.herokuapp.com/" target="_blank" class="pull-right"> <button type="button" class="btn btn-default btn-sm">Take a peek</button></a><br /></span> <br />
 								<p>Based on the 'Dragons Den' TV series, The Business Den is a Business Networking tool where would be 
 								   entrepreneurs can meet potential investors as well as Business owners themselves that could transform their ideas towards a sucessful Business </p>
 								<p>Based on my first project using Ruby On Rails, I recently updated this app re writing the code using Rails 5.  The tools used include - Bootstrap, Java Script, Sendgrid, Rails's new Action Cable and incorporating the Stripe APi system for on line payments.</p>
 							</article>
-							<br /> 
+							<br />
 							
 							<article id="work">
 								<h2 class="major">My Recipes</h2>
@@ -75,33 +110,6 @@
 							</article>
 							<br /> 
 							
-							<article id="work">
-								<h2 class="major">Project App</h2>
-								<span class="image main"><img src="images/projectapp.jpg" alt="The Project app" /></span>
-								<p><a href=" https://my-project-vwa.herokuapp.com/" target="_blank" class="pull-right"> <button type="button" class="btn btn-default btn-sm">Take a peek</button></a><br /></p> <br />
-								<p>Project App is a <strong>RESTful APi</strong> using Rails's Action Cable. </p>
-								<p>Project App is a Personal Project Management app which includes Real Time Messaging API.</p>
-							</article>
-							<br />
-							
-							<article id="work">
-								<h2 class="major">The Blogger</h2>
-								<span class="image main"><img src="images/blogger.png" alt="The Blogger" /></span>
-								<p><a href="https://the-blogger-of-walkerville.herokuapp.com/" target="_blank" class="pull-right"> <button type="button" class="btn btn-default btn-sm">Take a peek</button></a><br /></p> <br />
-								<p>The Blogger is a <strong>RESTful APi</strong> using AWS S3 for Image storage. <br />
-										A simple to use app to create, Post and delete blogs whilst being on the move.</p>
-							</article>
-							<br /> 
-							
-							<article id="work">
-								<h2 class="major">The Car Bar</h2>
-								<span class="image main"><img src="images/carbar.png" alt="The Carbar" /></span>
-								<p><a href="https://carbar-vwa.herokuapp.com/" target="_blank" class="pull-right"> <button type="button" class="btn btn-default btn-sm">Take a peek</button></a><br /></p> <br />
-								<p>I Created The Car bar as a simple example of a <strong>RESTful APi</strong> </p>
-								<p>It is a Car sharing platform where you can show some of your favourite cars by creating, editing and deleting them.</p>
-							</article>
-							<br /> 
-
 						<!-- About -->
 						<article id="about">
 						        <h2 class="major">Skills</h2>
@@ -152,7 +160,7 @@
 										<ul class="actions col-md-8" align="center">
 											<li><input type="submit" value="Send Message" /></li>
 											<li><input type="reset" value="Reset" /></li>
-											<li><input type="button" onclick="location.href='cv/vincethewalker.pdf'" value="My CV" class="primary"/></li>
+											<li><input type="button" onclick="location.href='cv/vincethewalker.pdf'" value="My CV" class="primary" /></li>
 										</ul>									
 								</form>
 								<ul class="icons" align="center">

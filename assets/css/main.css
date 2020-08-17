@@ -1,5 +1,7 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
 
 /*
 	Dimension by HTML5 UP
@@ -1701,4 +1703,16 @@ input, select, textarea {
 			background-color: #d9534f;
 			padding: 8px;
 			border-radius: 8px;
+		}
+
+		.smaller, .img{
+			width: 60%;
+		}
+
+		.italic {
+			font-style: italic;
+		}
+
+		.mug-shot, img {
+			border-radius: 5px;
 		}
