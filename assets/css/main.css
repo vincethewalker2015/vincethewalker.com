@@ -1697,6 +1697,10 @@ input, select, textarea {
 		.icon, fa-diamond {
 			color:  #B87333;
 		}
+
+		.no-decoration a {
+			text-decoration: none;
+		}
 		
 		/* WORK PAGE */
 		
