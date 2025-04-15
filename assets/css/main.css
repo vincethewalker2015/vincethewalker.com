@@ -223,7 +223,7 @@ input, select, textarea {
 	}
 	
 	.h1-title {
-		color: #B87333;
+		color: #c8a943 !important;
 	}
 
 	h2 {
@@ -1689,13 +1689,13 @@ input, select, textarea {
 		}
 		
 		.icons-footer, fa-twitte, a{
-			color: #B87333 !important;
+			color: #c8a943 !important;
 			list-style-type: none;
 			display: inline; 
 			margin: 0 8px;
 		}
 		.icon, fa-diamond {
-			color:  #B87333;
+			color: #c8a943 !important;
 		}
 
 		.no-decoration a {
